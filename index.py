@@ -18,8 +18,8 @@ CONFIG = {
     'api_key': os.getenv('BRIGHT_DATA_API_KEY', 'YOUR_API_KEY'),
     # Step 2: Get your SERP zone here: https://brightdata.com/cp/zones
     'zone': 'serp_api1',
-    # Step 3: Set your search engine query with URL
-    'search_engine_query_url': 'https://www.google.com/search?q=pizza'
+    # Step 3: Set your Bing search engine query with URL
+    'search_engine_query_url': 'https://www.bing.com/search?q=pizza'
     # Step 4: Run `python index.py` command on terminal
 }
 
